@@ -1,0 +1,11 @@
+Package: expResults
+Version: 0.2
+Date: 2013-06-28
+Title: expResults
+Author: Thomas J. Leeper
+Maintainer: Thomas J. Leeper <thosjleeper@gmail.com>
+Depends: 
+Suggests: 
+Description: n/a
+License: GPL-2
+URL: http://thomasleeper.com/software.html

@@ -1,18 +1,3 @@
-# FUNCTION TO PRODUCE A SIMPLE EXPERIMENTAL RESULTS TABLE
-# FOUR-COLUMN TABLE WITH TREATMENT GROUP MEAN, SD, N, AND SE
-
-# Copyright (C) 2011  Thomas J. Leeper
-# This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-
-# dv is a vector containing outcome values
-# tr is a vector containing treatment group indicators
-# labels is an optional call to a vector (by default, called ".groupNames"), which - if specified - labels resulting table rows
-# object.name, if specified, stores the results table as an R object (e.g., to be used later for plotting)
-# digits rounds all values to specified number of digits (default is 2)
-# NAs handles NAs, by default removing them in calculating means and SDs
-
 expResults <- function(dv,tr,labels=.groupNames,object.name=NULL,digits=2,NAs="na.rm"){
 	# function to produce a simple treatment group results table
 	if(!is.null(NAs) && NAs=="na.rm"){
