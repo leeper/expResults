@@ -8,4 +8,5 @@ Depends:
 Suggests: 
 Description: n/a
 License: GPL-2
-URL: http://thomasleeper.com/software.html
+URL: https://github.com/leeper/expResults
+BugReports: https://github.com/leeper/expResults/issues
